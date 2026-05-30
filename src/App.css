@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+body {
+  margin: 0;
+  background: #121212;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.app {
+  min-height: 100vh;
+  background: #121212;
+  color: white;
+  font-family: 'Playfair Display', serif;
+}
+
+.header {
+  text-align: center;
+  padding: 20px;
+  background: #1e1e1e;
+  border-bottom: 3px solid #c62828;
+}
+
+.header h1 {
+  margin: 0;
+  color: #fff;
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  font-size: 3rem;
+  letter-spacing: 1px;
+}
+
+.header p {
+  color: #ccc;
+}
+
+.buscador {
+  width: calc(100% - 40px);
+  margin: 20px;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+}
+
+.resumen {
+  margin: 20px;
+  background: #1e1e1e;
+  padding: 15px;
+  border-radius: 12px;
+}
+
+.categoria {
+  margin: 15px;
+  background: #222;
+  padding: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 22px;
+  font-weight: 600;
+  color: white;
+}
+.producto {
+  background: #1e1e1e;
+  margin: 15px;
+  padding: 15px;
+  border-radius: 12px;
+}
+
+.producto h3 {
+  margin-top: 0;
+}
+
+.precio {
+  color: #ff5252;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.boton-agregar {
+  background: #c62828;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  width: 100%;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.boton-agregar:hover {
+  background: #e53935;
+}
+
+.whatsapp {
+  position: sticky;
+  bottom: 0;
+  background: #25d366;
+  padding: 15px;
+  text-align: center;
+}
+
+.whatsapp button {
+  background: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.banner {
+  height: 280px;
+  margin: 20px;
+  border-radius: 20px;
+  overflow: hidden;
+
+  background-image: url("https://images.unsplash.com/photo-1544025162-d76694265947");
+  background-size: cover;
+  background-position: center;
+
+  box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+}
+
+.banner-overlay {
+  height: 100%;
+  background: rgba(0,0,0,0.55);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: 25px;
+}
+
+.banner-overlay h2 {
+  margin: 0;
+  color: white;
+  font-size: 32px;
+}
+
+.banner-overlay p {
+  color: #ddd;
+  font-size: 18px;
+}
+
+.banner-info {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.banner-info span {
+  background: rgba(255,255,255,0.15);
+  color: white;
+  padding: 8px 12px;
+  border-radius: 20px;
+}.banner {
+  height: 280px;
+  margin: 20px;
+  border-radius: 20px;
+  overflow: hidden;
+
+  background-image: url("https://images.unsplash.com/photo-1544025162-d76694265947");
+  background-size: cover;
+  background-position: center;
+
+  box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+}
+
+.banner-overlay {
+  height: 100%;
+  background: rgba(0,0,0,0.55);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: 25px;
+}
+
+.banner-overlay h2 {
+  margin: 0;
+  color: white;
+  font-size: 32px;
+}
+
+.banner-overlay p {
+  color: #ddd;
+  font-size: 18px;
+}
+
+.banner-info {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.banner-info span {
+  background: rgba(255,255,255,0.15);
+  color: white;
+  padding: 8px 12px;
+  border-radius: 20px;
+}
+.banner-overlay h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-style: italic;
+}
+.logo {
+  max-width: 280px;
+  width: 80%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.header {
+  text-align: center;
+  padding: 25px;
+  background: #1e1e1e;
+  border-bottom: 2px solid #8b0000;
+}
+.editor {
+  margin-top: 30px;
+  padding: 20px;
+  background: #1e1e1e;
+  border-radius: 12px;
+}
+
+.editor input,
+.editor textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.editor button {
+  padding: 10px 20px;
+}

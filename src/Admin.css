@@ -1,0 +1,134 @@
+.admin {
+  padding: 20px;
+  color: white;
+  background: #121212;
+  min-height: 100vh;
+}
+
+.admin h1 {
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #1e1e1e;
+}
+
+th,
+td {
+  padding: 12px;
+  border: 1px solid #333;
+  text-align: left;
+}
+
+th {
+  background: #8b0000;
+}
+.productos-admin {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.producto-admin {
+  background: #1e1e1e;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.producto-admin h3 {
+  margin-top: 0;
+}
+
+.editor {
+  margin-top: 15px;
+  border-top: 1px solid #333;
+  padding-top: 15px;
+}
+
+.editor input,
+.editor textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.editor button {
+  margin-right: 10px;
+}
+.filtros-admin {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.filtros-admin input,
+.filtros-admin select {
+  height: 42px;
+  padding: 0 12px;
+  border-radius: 8px;
+  border: 1px solid #444;
+  background: #2a2a2a;
+  color: white;
+}
+
+.filtros-admin input {
+  flex: 2;
+}
+
+.filtros-admin select {
+  flex: 1;
+}
+.aumento-masivo {
+  background: #1e1e1e;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.aumento-masivo h3 {
+  margin-top: 0;
+}
+
+.aumento-masivo {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 10px;
+  background: #1e1e1e;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.aumento-masivo h3 {
+  grid-column: 1 / -1;
+  margin: 0 0 10px;
+}
+
+.aumento-masivo input,
+.aumento-masivo select {
+  height: 42px;
+  padding: 0 12px;
+  border-radius: 8px;
+  border: 1px solid #444;
+  background: #2a2a2a;
+  color: white;
+}
+
+.aumento-masivo label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.aumento-masivo button {
+  grid-column: 1 / -1;
+  height: 45px;
+}
+
+.aumento-masivo button {
+  width: 100%;
+  padding: 12px;
+}

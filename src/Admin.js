@@ -11,7 +11,7 @@ const [categoriaAumento, setCategoriaAumento] = useState("");
 const [porcentajeAumento, setPorcentajeAumento] = useState("");
 const [tipoRedondeo, setTipoRedondeo] = useState("ninguno");
 const [redondearArriba, setRedondearArriba] = useState(true);
-const [autorizado, setAutorizado] = useState(false);
+
 
   useEffect(() => {
   cargarProductos();

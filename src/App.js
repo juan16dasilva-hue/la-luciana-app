@@ -12,6 +12,7 @@ const [nombre, setNombre] = useState("");
 const [telefono, setTelefono] = useState("");
 const [direccion, setDireccion] = useState("");
 const [pago, setPago] = useState("");
+const [observaciones, setObservaciones] = useState("");
 
   useEffect(() => {
     cargarProductos();
@@ -228,6 +229,14 @@ className="buscador"
   value={direccion}
   onChange={(e) => setDireccion(e.target.value)}
 />
+<input
+  className="buscador"
+  type="text"
+  placeholder="📝 Observaciones (sin cebolla, bien cocido, sin sal, etc.)"
+  value={observaciones}
+  onChange={(e) => setObservaciones(e.target.value)}
+/>
+
 
 <select
   className="buscador"
